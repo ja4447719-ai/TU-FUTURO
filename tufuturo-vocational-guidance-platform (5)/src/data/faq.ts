@@ -1,0 +1,10 @@
+export const FAQ: { q: string; a: string }[] = [
+  { q: "¿El test vocacional me dice qué carrera debo estudiar?", a: "No. El test te muestra carreras que coinciden con tus respuestas para que explores posibilidades. Los porcentajes indican coincidencia con lo que contestaste, no una probabilidad de éxito. La decisión es tuya." },
+  { q: "¿Necesito crear una cuenta?", a: "No. Puedes hacer el test, explorar carreras y buscar universidades sin registrarte. Tus respuestas se guardan solo en tu navegador." },
+  { q: "¿Cómo se calculan los resultados?", a: "Con un algoritmo propio, documentado y reproducible: cada respuesta suma puntos a intereses, habilidades y preferencias de trabajo, y cada carrera tiene un perfil con esas mismas dimensiones. No usamos inteligencia artificial externa. Puedes leer la metodología en la página Acerca de." },
+  { q: "¿Cómo sé si una universidad realmente ofrece la carrera?", a: "Cada programa muestra su nombre oficial, el enlace a la fuente, la fecha de consulta y un estado: Verificado, Pendiente de verificación o Información desactualizada. Solo mostramos como oferta confirmada lo que encontramos en sitios oficiales." },
+  { q: "¿Usan mi ubicación?", a: "Solo si lo autorizas. Tu ubicación se usa en tu dispositivo para calcular distancias y no se envía ni se guarda en nuestros servidores. También puedes buscar por municipio o código postal." },
+  { q: "¿Las distancias son de ruta?", a: "No. Son distancias aproximadas en línea recta entre tu punto de búsqueda y el campus. El tiempo real de traslado depende del tráfico y del transporte." },
+  { q: "¿Por qué no aparece mi universidad o carrera?", a: "Estamos ampliando el catálogo por etapas y verificamos cada programa individualmente. Si falta algo, consulta el sitio oficial de la institución." },
+  { q: "¿Qué es el Asistente TuFuturo?", a: "Será un asistente conversacional que responderá dudas usando únicamente la información verificada de la plataforma. Está en diseño y se incorporará en una versión posterior." },
+];
